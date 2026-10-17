@@ -1,0 +1,26 @@
+{
+  "name": "@qmoosa/derivatives-dashboard",
+  "version": "1.0.0",
+  "description": "Perpetual Futures & Synthetic Derivatives — Web4 Trading Console & Position Telemetry",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/dashboard.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "derivatives",
+    "dashboard",
+    "web4",
+    "trading",
+    "telemetry"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
